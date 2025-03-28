@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    color: white;
+}
+body {
+    
+    background-color: rgb(187, 204, 204);
+}
+.nav-bar {
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo {
+    height: 60px;
+    width: 100px;
+    margin-left: 10px;
+}
+.logo {
+    height: 55px;
+    width: 100%;
+    margin-top: 5px;
+}
+.border:hover {
+    border: 2px solid white;
+}
+.nav-loc {
+    width: 100px;
+    height: 60px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upper-p {
+    font-size: 10px;
+    margin-top: 8px;
+}
+.search {
+    display: flex;
+    width: 620px;
+    height: 40px;
+    justify-content: space-evenly;
+}
+.search-icon {  
+    height: 41px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(230, 230, 39);
+}
+.icon {
+    height: 35px;
+    width: 30px;
+}
+.input {
+    width: 100%;
+}
+.search-select { 
+    height: 41px;
+    background-color: white;
+    color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search:hover {
+    border: 2px solid yellow;
+} 
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    transition: width 1s;
+}
+.hello {
+    font-size: 13px;
+}
+.acc {
+    font-size: 18px;
+    font-weight: 700;
+}
+.cart i {
+    font-size: 25px;
+    color: white;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    height: 55px;
+}
+.panel {
+    height: 40px;
+    background-color: rgb(58, 50, 50);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.items {
+    width: 70%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+.items p{
+    display: inline;
+    margin-left: 15px;
+}
+.hero {
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.shop {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+.shop div{
+    color: black;
+    height: 400px;
+    width: 20%;  
+}
+.box {
+    display: flex;
+    flex-direction: column;
+   background-color: white;
+   border-radius: 5px;
+}
+.box h2 {
+    color: black;
+}
+.box div {
+    width: 100%;
+}
+.img {
+
+    width: 93%;
+    height: 300px;
+    margin-left: 13px;
+    border-radius: 5px;
+}
+.head {
+    flex: 40px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.image {
+    flex: 350px;  
+}
+
+.tail {
+    flex: 40px;
+    color: black;
+}
+.tail p{
+    color: rgb(0, 80, 166);
+    font-size: 20px;
+}
+.box-out {
+    padding: 20px 0px 15px;
+}
+.down-data {
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.down {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.down-data p {
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.down-data button {
+    background-color: yellow;
+    color: black;
+    height: 40px;
+    width: 180px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    border-radius: 20px;
+    border: 0.2px solid rgb(189, 189, 0);
+    font-weight: 700;
+
+}
+.footpanel1 {
+    height: 50px;
+    width: 100%;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid white;
+}
+.footpanel2 {
+    height: 300px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p {
+    color: white;
+    font-weight: 500;
+}
+ul a {
+    display: block;
+    margin-top: 10px;
+    color: rgb(210, 208, 208);
+}
+.footpanel2 ul {
+    margin-top: 40px;  
+}
+.down-logo {
+    height: 100px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.005px solid white;
+}
+.down-logo img {
+    height: 80px;
+}
+.signin:hover {
+    width: 100px;
+}
+.signin {
+    transition: width 0.5s;
+}
